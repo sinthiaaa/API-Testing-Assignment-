@@ -1,0 +1,114 @@
+{
+	"info": {
+		"_postman_id": "c156da70-25f5-459e-bfa3-ac59e7019fc8",
+		"name": "Assignment-Batch-8-Sinthia",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "38125278"
+	},
+	"item": [
+		{
+			"name": "Getting Status Code",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://demo.evershop.io/api/cart/mine/items",
+					"protocol": "https",
+					"host": [
+						"demo",
+						"evershop",
+						"io"
+					],
+					"path": [
+						"api",
+						"cart",
+						"mine",
+						"items"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "AddToCart",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://demo.evershop.io/api/cart/mine/items",
+					"protocol": "https",
+					"host": [
+						"demo",
+						"evershop",
+						"io"
+					],
+					"path": [
+						"api",
+						"cart",
+						"mine",
+						"items"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "VarifyCart",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "Request URL:\nhttps://demo.evershop.io/cart",
+					"protocol": "Request URL:\nhttps",
+					"host": [
+						"demo",
+						"evershop",
+						"io"
+					],
+					"path": [
+						"cart"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ProductQauntityLimitCheck",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Cookie",
+						"value": "sid=s%3AbJTg45BC575DPs16kR1m71jV6Mp0GMZO.m%2Ft0dIVM%2FCA0d2HAkfbw2zjrAnGyWpw4cC%2FWzuNaRis; SL_G_WPT_TO=en; SL_GWPT_Show_Hide_tmp=1; SL_wptGlobTipTmp=1",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"sku\": \"NJC48508-Black-X\",\r\n    \"qty\": \"195\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://demo.evershop.io/api/cart/mine/items",
+					"protocol": "https",
+					"host": [
+						"demo",
+						"evershop",
+						"io"
+					],
+					"path": [
+						"api",
+						"cart",
+						"mine",
+						"items"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
