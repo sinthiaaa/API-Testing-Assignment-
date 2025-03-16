@@ -1,0 +1,34 @@
+Q1| You have a shoe-selling e-commerce platform. Now, the client wants to implement a new feature "Search". During the client meeting, they mentioned they wanted to make the search dynamic, with any keywords, or specific text. Now you have a chance to get into more details on the feature. You can ask 10 questions to the client. List the questions according to priority.
+
+Answer : 10 questions that I will ask to the clients and clients reply according to assumptions are mentioned below , 
+
+1.Does the customer need to sign up before searching any product on the website ?
+Client Reply: No!
+
+2.Do you want customers to search according to product features if they can't remember the product name ? 
+Client Reply: No!
+
+3.Do you want to give the users the option of filtering while searching?
+            Client Reply: Yes!
+
+4.Do you want the search history to be seen by the customers?
+Client Reply: Yes!
+
+5.Do you want the search module to show auto suggestions while typing one letter ?
+Client Reply: Yes!
+
+6.Do you want multiple language acceptance on the search option?
+Client Reply: No!
+
+7.Do you want the option to delete search history from the search toolbar by clicking on sign “x” ?
+            Client Reply: Yes!
+
+8.If the user types products name wrong should there be the suggestion of the correct product name?
+            Client Reply: Yes!
+
+
+9.If a user searches with a special character should it show an “undefined character” type message ?
+Client Reply: Yes!
+
+10.Do you want to show the products that are in discount or in sale to the customers by typing “sale” or “discount”?
+Client Reply: Yes!
